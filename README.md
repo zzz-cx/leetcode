@@ -48,13 +48,14 @@ python scripts/run.py --list
 
 ## 总分类目录
 
-> 点击题号进入对应题解。共 **77** 道（76 道 LeetCode + 1 道自定义）。
+> 点击题号进入对应题解。共 **84** 道（83 道 LeetCode + 1 道自定义）。
 
 ### 数组 · 哈希 · 前缀和
 
 | 题号 | 题目 | 链接 |
 |:----:|------|------|
 | 1 | 两数之和 | [001-two-sum](./solutions/001-two-sum/) |
+| 167 | 两数之和 II - 输入有序数组 | [167-two-sum-ii-input-array-is-sorted](./solutions/167-two-sum-ii-input-array-is-sorted/) |
 | 41 | 缺失的第一个正数 | [041-first-missing-positive](./solutions/041-first-missing-positive/) |
 | 56 | 合并区间 | [056-merge-intervals](./solutions/056-merge-intervals/) |
 | 88 | 合并两个有序数组 | [088-merge-sorted-array](./solutions/088-merge-sorted-array/) |
@@ -72,6 +73,10 @@ python scripts/run.py --list
 | 15 | 三数之和 | [015-3sum](./solutions/015-3sum/) |
 | 26 | 删除有序数组中的重复项 | [026-remove-duplicates-from-sorted-array](./solutions/026-remove-duplicates-from-sorted-array/) |
 | 27 | 移除元素 | [027-remove-element](./solutions/027-remove-element/) |
+| 28 | 找出字符串中第一个匹配项的下标 | [028-find-the-index-of-the-first-occurrence-in-a-string](./solutions/028-find-the-index-of-the-first-occurrence-in-a-string/) |
+| 125 | 验证回文串 | [125-valid-palindrome](./solutions/125-valid-palindrome/) |
+| 167 | 两数之和 II - 输入有序数组 | [167-two-sum-ii-input-array-is-sorted](./solutions/167-two-sum-ii-input-array-is-sorted/) |
+| 209 | 长度最小的子数组 | [209-minimum-size-subarray-sum](./solutions/209-minimum-size-subarray-sum/) |
 | 42 | 接雨水 | [042-trapping-rain-water](./solutions/042-trapping-rain-water/) |
 | 75 | 颜色分类 | [075-sort-colors](./solutions/075-sort-colors/) |
 | 80 | 删除有序数组中的重复项 II | [080-remove-duplicates-from-sorted-array-ii](./solutions/080-remove-duplicates-from-sorted-array-ii/) |
@@ -110,6 +115,11 @@ python scripts/run.py --list
 | 题号 | 题目 | 链接 |
 |:----:|------|------|
 | 5 | 最长回文子串 | [005-longest-palindromic-substring](./solutions/005-longest-palindromic-substring/) |
+| 6 | Z 字形变换 | [006-zigzag-conversion](./solutions/006-zigzag-conversion/) |
+| 14 | 最长公共前缀 | [014-longest-common-prefix](./solutions/014-longest-common-prefix/) |
+| 28 | 找出字符串中第一个匹配项的下标 | [028-find-the-index-of-the-first-occurrence-in-a-string](./solutions/028-find-the-index-of-the-first-occurrence-in-a-string/) |
+| 125 | 验证回文串 | [125-valid-palindrome](./solutions/125-valid-palindrome/) |
+| 151 | 反转字符串中的单词 | [151-reverse-words-in-a-string](./solutions/151-reverse-words-in-a-string/) |
 | 22 | 括号生成 | [022-generate-parentheses](./solutions/022-generate-parentheses/) |
 | 84 | 柱状图中最大的矩形 | [084-largest-rectangle-in-histogram](./solutions/084-largest-rectangle-in-histogram/) |
 | 155 | 最小栈 | [155-min-stack](./solutions/155-min-stack/) |
@@ -214,11 +224,11 @@ python scripts/run.py --list
 
 | 分类 | 题数 |
 |------|:----:|
-| 数组 · 哈希 · 前缀和 | 9 |
-| 双指针 · 滑动窗口 | 10 |
+| 数组 · 哈希 · 前缀和 | 10 |
+| 双指针 · 滑动窗口 | 12 |
 | 矩阵 | 5 |
 | 链表 | 11 |
-| 栈 · 字符串 | 5 |
+| 栈 · 字符串 | 10 |
 | 二叉树 | 13 |
 | 图 · BFS · DFS | 3 |
 | 回溯 | 2 |
@@ -227,4 +237,4 @@ python scripts/run.py --list
 | 二分查找 | 5 |
 | 排序 · 设计 | 2 |
 | 自定义 | 1 |
-| **合计** | **77** |
+| **合计** | **84** |

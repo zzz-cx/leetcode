@@ -9,6 +9,8 @@
 | 3 | 无重复字符的最长子串 | [003-longest-substring-without-repeating-characters](./003-longest-substring-without-repeating-characters/) |
 | 4 | 寻找两个正序数组的中位数 | [004-median-of-two-sorted-arrays](./004-median-of-two-sorted-arrays/) |
 | 5 | 最长回文子串 | [005-longest-palindromic-substring](./005-longest-palindromic-substring/) |
+| 6 | Z 字形变换 | [006-zigzag-conversion](./006-zigzag-conversion/) |
+| 14 | 最长公共前缀 | [014-longest-common-prefix](./014-longest-common-prefix/) |
 | 15 | 三数之和 | [015-3sum](./015-3sum/) |
 | 19 | 删除链表的倒数第N个结点 | [019-remove-nth-node-from-end-of-list](./019-remove-nth-node-from-end-of-list/) |
 | 21 | 合并两个有序链表 | [021-merge-two-sorted-lists](./021-merge-two-sorted-lists/) |
@@ -16,6 +18,7 @@
 | 24 | 两两交换链表中的节点 | [024-swap-nodes-in-pairs](./024-swap-nodes-in-pairs/) |
 | 26 | 删除有序数组中的重复项 | [026-remove-duplicates-from-sorted-array](./026-remove-duplicates-from-sorted-array/) |
 | 27 | 移除元素 | [027-remove-element](./027-remove-element/) |
+| 28 | 找出字符串中第一个匹配项的下标 | [028-find-the-index-of-the-first-occurrence-in-a-string](./028-find-the-index-of-the-first-occurrence-in-a-string/) |
 | 31 | 下一个排列 | [031-next-permutation](./031-next-permutation/) |
 | 33 | 搜索旋转排序数组 | [033-search-in-rotated-sorted-array](./033-search-in-rotated-sorted-array/) |
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | [034-find-first-and-last-position-of-element-in-sorted-array](./034-find-first-and-last-position-of-element-in-sorted-array/) |
@@ -44,6 +47,7 @@
 | 114 | 二叉树展开为链表 | [114-flatten-binary-tree-to-linked-list](./114-flatten-binary-tree-to-linked-list/) |
 | 121 | 买卖股票的最佳时机 | [121-best-time-to-buy-and-sell-stock](./121-best-time-to-buy-and-sell-stock/) |
 | 122 | 买卖股票的最佳时机 II | [122-best-time-to-buy-and-sell-stock-ii](./122-best-time-to-buy-and-sell-stock-ii/) |
+| 125 | 验证回文串 | [125-valid-palindrome](./125-valid-palindrome/) |
 | 131 | 分割回文串 | [131-palindrome-partitioning](./131-palindrome-partitioning/) |
 | 134 | 加油站 | [134-gas-station](./134-gas-station/) |
 | 138 | 复制带随机指针的链表 | [138-copy-list-with-random-pointer](./138-copy-list-with-random-pointer/) |
@@ -51,15 +55,18 @@
 | 141 | 环形链表 | [141-linked-list-cycle](./141-linked-list-cycle/) |
 | 142 | 环形链表 II | [142-linked-list-cycle-ii](./142-linked-list-cycle-ii/) |
 | 148 | 排序链表 | [148-sort-list](./148-sort-list/) |
+| 151 | 反转字符串中的单词 | [151-reverse-words-in-a-string](./151-reverse-words-in-a-string/) |
 | 152 | 最大子数组乘积 | [152-maximum-product-subarray](./152-maximum-product-subarray/) |
 | 153 | 寻找旋转排序数组中的最小值 | [153-find-minimum-in-rotated-sorted-array](./153-find-minimum-in-rotated-sorted-array/) |
 | 155 | 最小栈 | [155-min-stack](./155-min-stack/) |
 | 160 | 相交链表 | [160-intersection-of-two-linked-lists](./160-intersection-of-two-linked-lists/) |
+| 167 | 两数之和 II - 输入有序数组 | [167-two-sum-ii-input-array-is-sorted](./167-two-sum-ii-input-array-is-sorted/) |
 | 189 | 旋转数组 | [189-rotate-array](./189-rotate-array/) |
 | 199 | 二叉树的右视图 | [199-binary-tree-right-side-view](./199-binary-tree-right-side-view/) |
 | 200 | 岛屿数量 | [200-number-of-islands](./200-number-of-islands/) |
 | 206 | 反转链表 | [206-reverse-linked-list](./206-reverse-linked-list/) |
 | 207 | 课程表 | [207-course-schedule](./207-course-schedule/) |
+| 209 | 长度最小的子数组 | [209-minimum-size-subarray-sum](./209-minimum-size-subarray-sum/) |
 | 215 | 第K大的元素 | [215-kth-largest-element-in-an-array](./215-kth-largest-element-in-an-array/) |
 | 226 | 翻转二叉树 | [226-invert-binary-tree](./226-invert-binary-tree/) |
 | 230 | 第K小的元素 | [230-kth-smallest-element-in-a-bst](./230-kth-smallest-element-in-a-bst/) |
