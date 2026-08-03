@@ -1,28 +1,44 @@
-# 给定一个 m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用原地算法。
-# 先遍历一下数组，查看0的位置，对应的行和列标记一下，最后将对应行和列置零
 from typing import List
 
 
 class Solution:
     def set_zeroes(self, matrix: List[List[int]]) -> None:
         m, n = len(matrix), len(matrix[0])
-        row = [False] * m
-        col = [False] * n
-        for i in range(m):
-            for j in range(n):
+        first_row_zero = any(matrix[0][j] == 0 for j in range(n))
+        first_col_zero = any(matrix[i][0] == 0 for i in range(m))
+
+        for i in range(1, m):
+            for j in range(1, n):
                 if matrix[i][j] == 0:
-                    row[i] = True
-                    col[j] = True
-        for i in range(m):
-            for j in range(n):
-                if row[i] or col[j]:
+                    matrix[i][0] = 0
+                    matrix[0][j] = 0
+
+        for i in range(1, m):
+            for j in range(1, n):
+                if matrix[i][0] == 0 or matrix[0][j] == 0:
                     matrix[i][j] = 0
+
+        if first_row_zero:
+            for j in range(n):
+                matrix[0][j] = 0
+        if first_col_zero:
+            for i in range(m):
+                matrix[i][0] = 0
 
 
 if __name__ == "__main__":
+    tests = [
+        (
+            [[1, 1, 1], [1, 0, 1], [1, 1, 1]],
+            [[1, 0, 1], [0, 0, 0], [1, 0, 1]],
+        ),
+        (
+            [[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]],
+            [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]],
+        ),
+    ]
     sol = Solution()
-    m = [[1, 1, 1], [1, 0, 1], [1, 1, 1]]
-    sol.set_zeroes(m)
-    expected = [[1, 0, 1], [0, 0, 0], [1, 0, 1]]
-    status = "PASS" if m == expected else "FAIL"
-    print(f"{status} | matrix={m}")
+    for matrix, expected in tests:
+        sol.set_zeroes(matrix)
+        status = "PASS" if matrix == expected else "FAIL"
+        print(f"{status} | matrix={matrix}")

@@ -13,24 +13,29 @@
 | 14 | 最长公共前缀 | [014-longest-common-prefix](./014-longest-common-prefix/) |
 | 15 | 三数之和 | [015-3sum](./015-3sum/) |
 | 19 | 删除链表的倒数第N个结点 | [019-remove-nth-node-from-end-of-list](./019-remove-nth-node-from-end-of-list/) |
+| 20 | 有效的括号 | [020-valid-parentheses](./020-valid-parentheses/) |
 | 21 | 合并两个有序链表 | [021-merge-two-sorted-lists](./021-merge-two-sorted-lists/) |
 | 22 | 括号生成 | [022-generate-parentheses](./022-generate-parentheses/) |
 | 24 | 两两交换链表中的节点 | [024-swap-nodes-in-pairs](./024-swap-nodes-in-pairs/) |
 | 26 | 删除有序数组中的重复项 | [026-remove-duplicates-from-sorted-array](./026-remove-duplicates-from-sorted-array/) |
 | 27 | 移除元素 | [027-remove-element](./027-remove-element/) |
 | 28 | 找出字符串中第一个匹配项的下标 | [028-find-the-index-of-the-first-occurrence-in-a-string](./028-find-the-index-of-the-first-occurrence-in-a-string/) |
+| 30 | 串联所有单词的子串 | [030-substring-with-concatenation-of-all-words](./030-substring-with-concatenation-of-all-words/) |
 | 31 | 下一个排列 | [031-next-permutation](./031-next-permutation/) |
 | 33 | 搜索旋转排序数组 | [033-search-in-rotated-sorted-array](./033-search-in-rotated-sorted-array/) |
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | [034-find-first-and-last-position-of-element-in-sorted-array](./034-find-first-and-last-position-of-element-in-sorted-array/) |
+| 36 | 有效的数独 | [036-valid-sudoku](./036-valid-sudoku/) |
 | 41 | 缺失的第一个正数 | [041-first-missing-positive](./041-first-missing-positive/) |
 | 42 | 接雨水 | [042-trapping-rain-water](./042-trapping-rain-water/) |
 | 45 | 跳跃游戏 II | [045-jump-game-ii](./045-jump-game-ii/) |
 | 46 | 全排列 | [046-permutations](./046-permutations/) |
 | 48 | 旋转图像 | [048-rotate-image](./048-rotate-image/) |
+| 49 | 字母异位词分组 | [049-group-anagrams](./049-group-anagrams/) |
 | 53 | 最大子数组和 | [053-maximum-subarray](./053-maximum-subarray/) |
 | 54 | 螺旋矩阵 | [054-spiral-matrix](./054-spiral-matrix/) |
 | 55 | 跳跃游戏 | [055-jump-game](./055-jump-game/) |
 | 56 | 合并区间 | [056-merge-intervals](./056-merge-intervals/) |
+| 57 | 插入区间 | [057-insert-interval](./057-insert-interval/) |
 | 64 | 最小路径和 | [064-minimum-path-sum](./064-minimum-path-sum/) |
 | 72 | 编辑距离 | [072-edit-distance](./072-edit-distance/) |
 | 73 | 矩阵置零 | [073-set-matrix-zeroes](./073-set-matrix-zeroes/) |
@@ -48,6 +53,7 @@
 | 121 | 买卖股票的最佳时机 | [121-best-time-to-buy-and-sell-stock](./121-best-time-to-buy-and-sell-stock/) |
 | 122 | 买卖股票的最佳时机 II | [122-best-time-to-buy-and-sell-stock-ii](./122-best-time-to-buy-and-sell-stock-ii/) |
 | 125 | 验证回文串 | [125-valid-palindrome](./125-valid-palindrome/) |
+| 128 | 最长连续序列 | [128-longest-consecutive-sequence](./128-longest-consecutive-sequence/) |
 | 131 | 分割回文串 | [131-palindrome-partitioning](./131-palindrome-partitioning/) |
 | 134 | 加油站 | [134-gas-station](./134-gas-station/) |
 | 138 | 复制带随机指针的链表 | [138-copy-list-with-random-pointer](./138-copy-list-with-random-pointer/) |
@@ -64,17 +70,22 @@
 | 189 | 旋转数组 | [189-rotate-array](./189-rotate-array/) |
 | 199 | 二叉树的右视图 | [199-binary-tree-right-side-view](./199-binary-tree-right-side-view/) |
 | 200 | 岛屿数量 | [200-number-of-islands](./200-number-of-islands/) |
+| 202 | 快乐数 | [202-happy-number](./202-happy-number/) |
+| 205 | 同构字符串 | [205-isomorphic-strings](./205-isomorphic-strings/) |
 | 206 | 反转链表 | [206-reverse-linked-list](./206-reverse-linked-list/) |
 | 207 | 课程表 | [207-course-schedule](./207-course-schedule/) |
 | 209 | 长度最小的子数组 | [209-minimum-size-subarray-sum](./209-minimum-size-subarray-sum/) |
 | 215 | 第K大的元素 | [215-kth-largest-element-in-an-array](./215-kth-largest-element-in-an-array/) |
 | 226 | 翻转二叉树 | [226-invert-binary-tree](./226-invert-binary-tree/) |
+| 228 | 汇总区间 | [228-summary-ranges](./228-summary-ranges/) |
 | 230 | 第K小的元素 | [230-kth-smallest-element-in-a-bst](./230-kth-smallest-element-in-a-bst/) |
 | 234 | 回文链表 | [234-palindrome-linked-list](./234-palindrome-linked-list/) |
 | 236 | 二叉树的最近公共祖先 | [236-lowest-common-ancestor-of-a-binary-tree](./236-lowest-common-ancestor-of-a-binary-tree/) |
 | 238 | 除自身以外数组的乘积 | [238-product-of-array-except-self](./238-product-of-array-except-self/) |
 | 239 | 滑动窗口最大值 | [239-sliding-window-maximum](./239-sliding-window-maximum/) |
 | 287 | 寻找重复数 | [287-find-the-duplicate-number](./287-find-the-duplicate-number/) |
+| 289 | 生命游戏 | [289-game-of-life](./289-game-of-life/) |
+| 290 | 单词规律 | [290-word-pattern](./290-word-pattern/) |
 | 300 | 最长递增子序列 | [300-longest-increasing-subsequence](./300-longest-increasing-subsequence/) |
 | 322 | 零钱兑换 | [322-coin-change](./322-coin-change/) |
 | 347 | 前 K 个高频元素 | [347-top-k-frequent-elements](./347-top-k-frequent-elements/) |
@@ -82,6 +93,7 @@
 | 394 | 字符串解码 | [394-decode-string](./394-decode-string/) |
 | 437 | 路径总和 III | [437-path-sum-iii](./437-path-sum-iii/) |
 | 438 | 找到字符串中所有字母异位词 | [438-find-all-anagrams-in-a-string](./438-find-all-anagrams-in-a-string/) |
+| 452 | 用最少数量的箭引爆气球 | [452-minimum-number-of-arrows-to-burst-balloons](./452-minimum-number-of-arrows-to-burst-balloons/) |
 | 543 | 二叉树的直径 | [543-diameter-of-binary-tree](./543-diameter-of-binary-tree/) |
 | 560 | 和为 K 的子数组 | [560-subarray-sum-equals-k](./560-subarray-sum-equals-k/) |
 | 662 | 二叉树最大宽度 | [662-maximum-width-of-binary-tree](./662-maximum-width-of-binary-tree/) |

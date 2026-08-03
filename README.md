@@ -48,16 +48,21 @@ python scripts/run.py --list
 
 ## 总分类目录
 
-> 点击题号进入对应题解。共 **84** 道（83 道 LeetCode + 1 道自定义）。
+> 点击题号进入对应题解。共 **96** 道（95 道 LeetCode + 1 道自定义）。
 
 ### 数组 · 哈希 · 前缀和
 
 | 题号 | 题目 | 链接 |
 |:----:|------|------|
 | 1 | 两数之和 | [001-two-sum](./solutions/001-two-sum/) |
+| 49 | 字母异位词分组 | [049-group-anagrams](./solutions/049-group-anagrams/) |
+| 202 | 快乐数 | [202-happy-number](./solutions/202-happy-number/) |
+| 128 | 最长连续序列 | [128-longest-consecutive-sequence](./solutions/128-longest-consecutive-sequence/) |
 | 167 | 两数之和 II - 输入有序数组 | [167-two-sum-ii-input-array-is-sorted](./solutions/167-two-sum-ii-input-array-is-sorted/) |
 | 41 | 缺失的第一个正数 | [041-first-missing-positive](./solutions/041-first-missing-positive/) |
 | 56 | 合并区间 | [056-merge-intervals](./solutions/056-merge-intervals/) |
+| 57 | 插入区间 | [057-insert-interval](./solutions/057-insert-interval/) |
+| 228 | 汇总区间 | [228-summary-ranges](./solutions/228-summary-ranges/) |
 | 88 | 合并两个有序数组 | [088-merge-sorted-array](./solutions/088-merge-sorted-array/) |
 | 189 | 旋转数组 | [189-rotate-array](./solutions/189-rotate-array/) |
 | 238 | 除自身以外数组的乘积 | [238-product-of-array-except-self](./solutions/238-product-of-array-except-self/) |
@@ -74,6 +79,7 @@ python scripts/run.py --list
 | 26 | 删除有序数组中的重复项 | [026-remove-duplicates-from-sorted-array](./solutions/026-remove-duplicates-from-sorted-array/) |
 | 27 | 移除元素 | [027-remove-element](./solutions/027-remove-element/) |
 | 28 | 找出字符串中第一个匹配项的下标 | [028-find-the-index-of-the-first-occurrence-in-a-string](./solutions/028-find-the-index-of-the-first-occurrence-in-a-string/) |
+| 30 | 串联所有单词的子串 | [030-substring-with-concatenation-of-all-words](./solutions/030-substring-with-concatenation-of-all-words/) |
 | 125 | 验证回文串 | [125-valid-palindrome](./solutions/125-valid-palindrome/) |
 | 167 | 两数之和 II - 输入有序数组 | [167-two-sum-ii-input-array-is-sorted](./solutions/167-two-sum-ii-input-array-is-sorted/) |
 | 209 | 长度最小的子数组 | [209-minimum-size-subarray-sum](./solutions/209-minimum-size-subarray-sum/) |
@@ -88,10 +94,12 @@ python scripts/run.py --list
 
 | 题号 | 题目 | 链接 |
 |:----:|------|------|
+| 36 | 有效的数独 | [036-valid-sudoku](./solutions/036-valid-sudoku/) |
 | 48 | 旋转图像 | [048-rotate-image](./solutions/048-rotate-image/) |
 | 54 | 螺旋矩阵 | [054-spiral-matrix](./solutions/054-spiral-matrix/) |
 | 64 | 最小路径和 | [064-minimum-path-sum](./solutions/064-minimum-path-sum/) |
 | 73 | 矩阵置零 | [073-set-matrix-zeroes](./solutions/073-set-matrix-zeroes/) |
+| 289 | 生命游戏 | [289-game-of-life](./solutions/289-game-of-life/) |
 | 74 | 搜索二维矩阵 | [074-search-a-2d-matrix](./solutions/074-search-a-2d-matrix/) |
 
 ### 链表
@@ -118,8 +126,13 @@ python scripts/run.py --list
 | 6 | Z 字形变换 | [006-zigzag-conversion](./solutions/006-zigzag-conversion/) |
 | 14 | 最长公共前缀 | [014-longest-common-prefix](./solutions/014-longest-common-prefix/) |
 | 28 | 找出字符串中第一个匹配项的下标 | [028-find-the-index-of-the-first-occurrence-in-a-string](./solutions/028-find-the-index-of-the-first-occurrence-in-a-string/) |
+| 30 | 串联所有单词的子串 | [030-substring-with-concatenation-of-all-words](./solutions/030-substring-with-concatenation-of-all-words/) |
+| 49 | 字母异位词分组 | [049-group-anagrams](./solutions/049-group-anagrams/) |
+| 205 | 同构字符串 | [205-isomorphic-strings](./solutions/205-isomorphic-strings/) |
+| 290 | 单词规律 | [290-word-pattern](./solutions/290-word-pattern/) |
 | 125 | 验证回文串 | [125-valid-palindrome](./solutions/125-valid-palindrome/) |
 | 151 | 反转字符串中的单词 | [151-reverse-words-in-a-string](./solutions/151-reverse-words-in-a-string/) |
+| 20 | 有效的括号 | [020-valid-parentheses](./solutions/020-valid-parentheses/) |
 | 22 | 括号生成 | [022-generate-parentheses](./solutions/022-generate-parentheses/) |
 | 84 | 柱状图中最大的矩形 | [084-largest-rectangle-in-histogram](./solutions/084-largest-rectangle-in-histogram/) |
 | 155 | 最小栈 | [155-min-stack](./solutions/155-min-stack/) |
@@ -163,6 +176,7 @@ python scripts/run.py --list
 | 题号 | 题目 | 链接 |
 |:----:|------|------|
 | 45 | 跳跃游戏 II | [045-jump-game-ii](./solutions/045-jump-game-ii/) |
+| 452 | 用最少数量的箭引爆气球 | [452-minimum-number-of-arrows-to-burst-balloons](./solutions/452-minimum-number-of-arrows-to-burst-balloons/) |
 | 55 | 跳跃游戏 | [055-jump-game](./solutions/055-jump-game/) |
 | 134 | 加油站 | [134-gas-station](./solutions/134-gas-station/) |
 
@@ -224,17 +238,17 @@ python scripts/run.py --list
 
 | 分类 | 题数 |
 |------|:----:|
-| 数组 · 哈希 · 前缀和 | 10 |
-| 双指针 · 滑动窗口 | 12 |
-| 矩阵 | 5 |
+| 数组 · 哈希 · 前缀和 | 15 |
+| 双指针 · 滑动窗口 | 13 |
+| 矩阵 | 7 |
 | 链表 | 11 |
-| 栈 · 字符串 | 10 |
+| 栈 · 字符串 | 15 |
 | 二叉树 | 13 |
 | 图 · BFS · DFS | 3 |
 | 回溯 | 2 |
-| 贪心 | 3 |
+| 贪心 | 4 |
 | 动态规划 | 8 |
 | 二分查找 | 5 |
 | 排序 · 设计 | 2 |
 | 自定义 | 1 |
-| **合计** | **84** |
+| **合计** | **96** |

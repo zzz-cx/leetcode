@@ -13,6 +13,15 @@ func rotate(matrix [][]int) {
 
 func main() {
 	m := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+	expected := [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}
 	rotate(m)
-	fmt.Printf("PASS | %v\n", m)
+	status := "PASS"
+	for i := range m {
+		for j := range m[i] {
+			if m[i][j] != expected[i][j] {
+				status = "FAIL"
+			}
+		}
+	}
+	fmt.Printf("%s | rotated=%v\n", status, m)
 }
